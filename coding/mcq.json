@@ -1,0 +1,23 @@
+[
+  {
+    "question": "What will be the output of the following Python code snippet?\ndata = {'a':1, 'b':2, 'c':3}\nprint(data.get('d', 'Not Found'))",
+    "correct_answer": "'Not Found'",
+    "first_incorrect_answer": "KeyError: 'd'",
+    "second_incorrect_answer": "None",
+    "third_incorrect_answer": "3"
+  },
+  {
+    "question": "What data type is not mutable in python?",
+    "correct_answer": "tuple",
+    "first_incorrect_answer": "list",
+    "second_incorrect_answer": "dictionary",
+    "third_incorrect_answer": "set"
+  },
+  {
+    "question": "Which of the following is not a valid way to create a dictionary?",
+    "correct_answer": "d = dict('a'=1, 'b'=2)",
+    "first_incorrect_answer": "d = {'a': 1, 'b': 2}",
+    "second_incorrect_answer": "d = dict([('a', 1), ('b', 2)])",
+    "third_incorrect_answer": "d = dict(a=1, b=2)"
+  }
+]
