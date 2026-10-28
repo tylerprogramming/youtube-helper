@@ -3,7 +3,8 @@ import autogen
 import json
 import random
 from tavily import TavilyClient
-tavily = TavilyClient(api_key="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")
+# Set TAVILY_API_KEY in your environment; TavilyClient reads it when no api_key is passed
+tavily = TavilyClient()
 
 st.title("YouTube")
 
